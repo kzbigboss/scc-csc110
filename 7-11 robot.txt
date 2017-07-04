@@ -1,0 +1,18 @@
+Robot instructions:
+
+[1] Enter store
+[2] Locate aisle with bubble gum
+[3] Proceed to location found in [2]
+[4] Locate Orbit Wintermint Gum
+[5A] If gum not located, exit store, break processing
+[5B] If gum located, pick up gum
+[6] Locate cashier
+[7] Proceed to cashier in [6]
+[8] Hand gum to cashier
+[9] Obtain price for gum from cashier
+[10] Provide cash in amount of [9]
+[11] Decline sale receipt
+[12] Pick up gum
+[13] Locate store exit
+[14] Proceed to store exit
+[15] Exit store
