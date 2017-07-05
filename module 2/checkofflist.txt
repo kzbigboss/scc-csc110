@@ -1,0 +1,37 @@
+Homework Checkoff List CSC110
+Name:	Mark Kazzaz
+Section: CSC110.1180
+Homework: DISC Checkoff Practice
+
+>Overall, two objectives
+>>1 - calculate and display info for each rental transaction
+>>2 - summarize each day's rental transactions
+
+>Rental transactions available
+>>Rent snowboards with boots
+>>Rent snowboards WITHOUT boots
+
+>Required data capture for each transaction
+>>Rentor's name
+>>Drivers license or ID number
+>>number of snowboards without boots
+>>number of snowboards with boots
+
+>Literal data
+>>cost of snowboard without boots = $20.00
+>>cost of snowboard with boots = $30.00
+
+>Calculations required
+>>calc and display total charges for rentals
+>>maintain subtotals as additional transactions are recorded
+>>calc average charge per person
+
+>Required outputs
+>>day's totals of rental transactions (with and without boots)
+>>total charges for the day
+>>average charge per customer
+
+>Required interactions
+>>Enter transaction information
+>>Bad data doesn't clear data, restarts input instead
+>>Enable 'clear all' transaction for end the day's sales and prepare for next business day.

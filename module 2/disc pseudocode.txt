@@ -1,0 +1,66 @@
+# Name:		Mark Kazzaz
+# Section:	CSC110.1180
+# Assignment:	DISC - Pseudocode
+
+# Pseduocode 1
+# Cost per square inch of pizza
+# Area = pi * radius to the 2nd power
+
+## get input of radius of pizza (flt_pizza_radius)
+## calculate(flt_pizza_area): area = pi * flt_pizza_radius ** 2
+## print flt_pizza_area to screen
+
+##########
+
+# Pseudocode 2
+# Determine the most efficient breakdown of change
+# Someone inputs $1.47 
+# That would break down to 5 quarters, 2 dimes and 2 pennies
+
+## get input of amount to distribute change (flt_amount_to_change)
+
+## use integer division to find the following:
+
+  ### find how many quarters are neeeded 
+  ###### cnt_quarters = flt_amount_to_change // .25
+  ### reduce the amount to change by the numbers of quarters used
+  ###### flt_amount_to_change = flt_amount_to_change - cnt_quarters * .25
+
+  ### find how many dimes are neeeded 
+  ###### cnt_dimes = flt_amount_to_change // .10
+  ### reduce the amount to change by the numbers of dimes used
+  ###### flt_amount_to_change = flt_amount_to_change - cnt_dimes * .10
+
+  ### find how many nickels are neeeded 
+  ###### cnt_nickels = flt_amount_to_change // .05
+  ### reduce the amount to change by the numbers of nickels used
+  ###### flt_amount_to_change = flt_amount_to_change - cnt_nickels * .10
+
+  ### find how many pennies are needed
+  ###### cnt_pennies = flt_amount_to_change # already considered other coinage, only pennies remain
+
+## print summary of coin counts to display count amounts
+
+##########
+
+# Pseudocode 3
+# A booksale
+# Input is title, quantity & price, only one title is being purchased
+# You need to print out subtotal, tax(you determine the rate) and total for the sale.
+
+## input user for:
+  ### book title (str_book_title)
+  ### quantity (int_book_qty)
+  ### price (flt_book_price)
+
+## load tax rate (flt_tax_rate) # get tax rate from business
+
+## calculate 
+  ### sales subtotal (flt_subtotal): (int_book_qty * flt_book_price)
+  ### tax amount (flt_sales_tax): (flt_subtotal * flt_tax_rate)
+  ### transaction total: (flt_subtotal + (flt_sales_tax)
+
+## print to user's screen
+  ### sales subtotal
+  ### tax amount
+  ### transaction total
