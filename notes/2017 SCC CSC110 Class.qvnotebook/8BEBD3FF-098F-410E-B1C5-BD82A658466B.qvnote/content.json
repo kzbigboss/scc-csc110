@@ -1,0 +1,9 @@
+{
+  "title": "2017-07-06 Class Lecture",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<ul><li>Main lecture</li><ul><li>Expecting checkoff list and pseudocode with each homework from this point forward.</li><li>Data types</li><ul><li>Use verbose names</li><li>Points off for shorthand</li></ul><li>Operations</li><ul><li>PEMDAS</li><li>Concatenation</li><ul><li>string + string + string</li></ul><li>Formating</li><ul><li>print(‘price is ${0:0.2f}’.format(fltPrice)</li></ul></ul></ul></ul>"
+    }
+  ]
+}
