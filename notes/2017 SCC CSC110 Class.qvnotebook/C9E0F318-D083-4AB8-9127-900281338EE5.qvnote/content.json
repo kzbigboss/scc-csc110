@@ -1,0 +1,9 @@
+{
+  "title": "2017-07-13 Class Lecture",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<ul><li>Review slideshow</li><ul><li>Try/Except approach</li><ul><li>Just using ‘raw except’ - no need to figure out specific excepts or restarting application.</li><li>Avoid the user experiencing the red wall of text</li></ul></ul></ul>"
+    }
+  ]
+}
