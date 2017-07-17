@@ -1,0 +1,5 @@
+Boxers 7
+Beagles 4
+Bulldogs 5
+Rottweilers 9
+Poodles 8
