@@ -1,0 +1,22 @@
+Homework Checkoff List CSC110
+Name:		Mark Kazzaz
+Section:	HY, Summer 2017
+Homework:	#2, Costing Program
+
+>> User inputs three item
+>>>> For each item, user inputs
+>>>>>> Description
+>>>>>> Price
+>>>>>> Quantity
+>>>>>> Weight
+
+>> Program calculates
+>>>> Subtotal (sum of price of all items)
+>>>> Shipping/Handling
+>>>>>> Shipping = $0.25 * total weight of all items
+>>>>>> Handling = Flat $5 per order
+>>>>>> Tax = Subtotal * 0.09
+
+>> Program informs user of
+>>>> Summary of items purchased
+>>>> Summary of above calculations
