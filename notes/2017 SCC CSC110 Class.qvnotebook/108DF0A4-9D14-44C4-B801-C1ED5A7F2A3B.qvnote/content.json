@@ -1,0 +1,9 @@
+{
+  "title": "2017-07-20 Class Lecture",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<ul><li>Banned items/objects for this class</li><ul><li>Rational: things are too unique to Python and not well suited for other programming languages</li><li>eval() - use float(), int(), and str() instead</li><li>continue/break/pass - don’t rely on these</li><li>simultaneous assignment</li><ul><li>ie: data1, data2 = source1, source2</li></ul><li>global variables</li></ul></ul>"
+    }
+  ]
+}
