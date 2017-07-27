@@ -1,0 +1,9 @@
+{
+  "title": "2017-07-27 Class 5 Lecture",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<ul><li>Review on functions and boolean variables</li><li>Homework 3 review</li><ul><li>must use functions for calculations</li><li>must use try/catch block, use it when you capture user input</li></ul><li>Lab 5 review</li><ul><li>nest the functions, don’t return to main between calculations</li></ul></ul>"
+    }
+  ]
+}
