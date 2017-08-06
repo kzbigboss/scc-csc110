@@ -1,0 +1,13 @@
+{
+  "title": "2017-08-02 Class 6 Lecture",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<ul><li>Final exam</li><ul><li>Thursday on week 8, 8/17, meet at 8a, same room</li><li>Single side of paper, 8x11.5, handwritten, whatever notes</li><li>All inclusive (pre/post midterm)</li></ul><li>Graphics review</li><ul><li>(x,y): 0,0 at top left</li><li>Left to right; Top to bottom</li><li>General process</li><ul><li>Create an object by calling a class</li><li>Use the object’s method to draw</li></ul></ul></ul>"
+    },
+    {
+      "type": "text",
+      "data": "<div>Class: Calculator</div><ol><li>Take string from user<br></li><li>Replace spaces with nonspaces</li><li>Locate the operator at position n</li><li>Create three variables</li><ol><li>0 - (n-1) = First number</li><li>n = Operator (handle if operator is two characters long)</li><li>(n+1) - len(str) = Second number</li></ol><li>Use the three variables to perform the math</li><ol><li>if variable 1 or 3 contains a period, make it float, otherwise integer</li><li>use the second variable as an operator</li></ol></ol>"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+Homework Checkoff List CSC110
+Name:		Mark Kazzaz
+Section:	HY, Summer 2017
+Homework:	#3, Coffee Costing/Shipping Program
+
+>> Program informs user of
+>>>> Summary of items purchased
+>>>> Summary of above calculations
+
+>> Need to capture user inputs for
+>>>> Type of coffee: Jonestown Brew or Plymouth Jolt
+>>>>>>>> Will capture as string, will prompt as a list
+>>>> Pounds of coffee requested
+>>>>>>>> Will capture as float (to enable partial pounds), will prompt as numeric entry
+>>>> Enter City
+>>>>>>>> Will capture as string, will prompt as string entry
+>>>> Enter State
+>>>>>>>> Will capture as string, will prompt as list, validate two letter abbreviation
+>>>> Delivery method: overnight, two day, standard
+>>>>>>>> Will capture as string, will prompt as a list
+>>>> Payment method: PayPal, Credit Card, Check
+>>>>>>>> Will capture as string, will prompt as a list
+
+
+>> Literal facts to store
+>>>> Jonestown Brew price = $10.50 / pound
+>>>> Plymouth Jolt price = $16.95 / pound
+>>>> Shipping Cost = 0.93 / pound
+>>>> Handling = 2.50 / order
+>>>> Tax Rate:
+	WA, CA, TX 	= 9%, based on sub-total
+	OR, FL 		= 0, based on sub-total
+	(others)	= 7%, based on sub-total
+>>>> Shipping cost:
+	overnight	= 20.00
+	two day		= 13.00
+	standard	= 0.00
+>>>> Payment impact:
+	Paypal		= 3% additive, based on sub-total
+	Credit card	= 5% additive, based on sub-total
+	Check		= 2% DECREMENTAL, based on sub-total
+
+
+>> Program calculates
+>>>> sub-total via function 		= price * quantity
+>>>> shipping & handling via function 	= (cost * quantity) + handling
+>>>> tax via function			= subtotal * tax rate
+
+
+>> Program informs user of
+>>>> Coffee type selected
+>>>> Number of points ordered
+>>>> Subtotal (format US currency)
+>>>> Shipping and Handling costs (format US currency)
+>>>> Delivery costs (format US currency)
+>>>> Destination city/state
+>>>> Delivery method
+>>>> Payment method
+>>>> Tax amount (format US currency)
+>>>> Grand total (format US currency)
+
+
