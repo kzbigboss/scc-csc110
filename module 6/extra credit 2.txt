@@ -1,0 +1,15 @@
+Given the following list:
+
+	lstRandom = ['dog',4,'cat',6,8]
+
+What is the result of the following command:
+
+	list.index('cat') * list[4]
+
+A: 0
+B: An error
+C: 18
+D: 16
+E: 8
+
+Answer = D
