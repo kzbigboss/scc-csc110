@@ -9,13 +9,11 @@ from graphics import *
 
 
 ## define function to draw dice makers to indicate face value
-def drawMark(window, intSize, lstMarkerLocations):
-    ## take the list of marker locations and draw circles
-    ## to represent the request face value of the die
-    for i in range(len(lstMarkerLocations)):
-        cirMark = Circle(Point(lstMarkerLocations[i][0], lstMarkerLocations[i][1]), intSize*0.1)
-        cirMark.setFill('green')
-        cirMark.draw(window)
+def drawMark(window, intSize, pntMark):
+    ## draw mark location on window within dice rectangle
+    cirMark = Circle(pntMark, intSize*0.1)
+    cirMark.setFill('green')
+    cirMark.draw(window)
 
 
 ## define function to draw dice within a window
@@ -37,13 +35,14 @@ def drawDice(window, pntTopLeft, intSize, intFaceValue):
     fltYOffset          = pntTopLeft.getY()
     fltNearPartition    = 0.2
     fltMidPartition     = 0.5
-    fltFarPartition     = 0.8
+    fltFarPartition     = 1.0 - fltNearPartition ## make it an inverse of the near partition
 
     ## calculate the relative location of the dice marker locations
     ## based on the window placement and width of the dice
 
     lstMarkerLocations = [  # list of a list containing dice marker locations
         ### map of all maker points on a dice face:
+            ### |NP | MP | FP|  = Near Partition, Middle Partition, Far Partition
             ### --------------
             ### | p0  p1  p2 |
             ### |            |
@@ -85,9 +84,10 @@ def drawDice(window, pntTopLeft, intSize, intFaceValue):
     ## create the requested face value
     lstMarkerLocations = [lstMarkerLocations[i] for i in lstMarkIndex]
 
-    ## leverage the diceMark function to draw dice markers for the
-    ## resulting dice markers based on the requested face value
-    diceMarks = drawMark(window, intSize, lstMarkerLocations)
+    ## leverage the diceMark function to draw dice markers based
+    ## on the requested face value
+    for i in range(len(lstMarkerLocations)):
+        drawMark(window, intSize, Point(lstMarkerLocations[i][0],lstMarkerLocations[i][1]))
 
     ## return the rectangle constructor that was created
     return(rctDice)
@@ -104,6 +104,11 @@ def main():
     ## leverage the drawDice function to draw dice in the window based
     ## on entering the the top left corner of the die, the size of the die,
     ## and the face value of the dice
-    rctDice01 = drawDice(win, Point(100, 100), 200, 5)
+    #rctDice01 = drawDice(win, Point(50, 50), 50, 1)
+    #rctDice02 = drawDice(win, Point(100, 100), 50, 2)
+    #rctDice03 = drawDice(win, Point(150, 150), 50, 3)
+    #rctDice04 = drawDice(win, Point(200, 200), 50, 4)
+    rctDice05 = drawDice(win, Point(100, 100), 225, 5)
+    #rctDice06 = drawDice(win, Point(300, 300), 50, 6)
 
 main()
