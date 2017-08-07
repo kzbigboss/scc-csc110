@@ -13,6 +13,7 @@ def drawMark(window, intSize, pntMark):
     ## draw mark location on window within dice rectangle
     cirMark = Circle(pntMark, intSize*0.1)
     cirMark.setFill('green')
+    cirMark.setOutline('green')
     cirMark.draw(window)
 
 
@@ -28,6 +29,7 @@ def drawDice(window, pntTopLeft, intSize, intFaceValue):
     ## into window input
     rctDice = Rectangle(pntTopLeft, pntBottomRight)
     rctDice.setFill('white')
+    rctDice.setOutline('black')
     rctDice.draw(window)
 
     ## define offsets and partitions for dice face marker locations
