@@ -13,11 +13,11 @@ from time import sleep      ## to help with dice rolls
 ## define function to roll a dice and aggregate results
 def rollDice(window, rctDice, intSize):    
 
-    ## randomy determine dice face
+    ## randomly determine dice face, set transition delay
     intFaceValue = randint(1,6)
     fltTransitionDelay = 0.15
     
-    ## roll since several times for fun animation
+    ## roll dice several times for fun animation
     drawDice(window, rctDice.getP1(), intSize, randint(1,6))
     sleep(fltTransitionDelay)
     drawDice(window, rctDice.getP1(), intSize, randint(1,6))
@@ -203,7 +203,7 @@ def main():
                 intDiceRollTotal += rollDice(win, rctDice01, intDiceSize)
                 ## change the dice state to rolled
                 isDice01Rolled = True
-                ## decremet the amount of rows remaining
+                ## decrement the amount of rows remaining
                 intDiceRollsRemaining -= 1
                 ## update the user prompt to show updated rolls remaining
                 txtPrompt.setText(strUserPrompt.format(str(intDiceRollsRemaining)))
