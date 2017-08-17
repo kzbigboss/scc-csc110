@@ -3,3 +3,23 @@ study notes:
 remember to think of floats when printing, if hit by a number with a decimal the resulting number is a float
 
 if end is set in print(), consider what happens if there's no \n
+
+range(1,10) = 1-9
+
+exponent = **
+division = float
+int division = int (//) - how many times into? ignore remainder
+modulus = int (%) - what's the remainder
+
+string[i] = one character
+string[-i] = one character, start counting from end
+string[i:j] = slice from i to j
+string[:j] = slice from start to j
+string[i:] = slice from i to end
+string[:-j] = slice from start to -j from end
+
+str * 3 = reat str 3 times
+str + "3" = concatenate str and "3"
+
+book: chapters 1-8
+extra credit: joke
