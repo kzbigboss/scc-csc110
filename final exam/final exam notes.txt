@@ -1,0 +1,5 @@
+study notes:
+
+remember to think of floats when printing, if hit by a number with a decimal the resulting number is a float
+
+if end is set in print(), consider what happens if there's no \n

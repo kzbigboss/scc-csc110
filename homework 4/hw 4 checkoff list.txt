@@ -1,0 +1,40 @@
+Homework Checkoff List CSC110
+Name:		Mark Kazzaz
+Section:	HY, Summer 2017
+Homework:	#4, Graphics Dice Program
+
+>> Program lets user
+>>>> Know that they have five dice to throw
+>>>> Only let's them role a single dice once
+>>>> After every click, inform the user of the latest running total
+>>>> Once all five dice are thrown, tell them they're lucky
+
+
+>> Need to capture
+>>>> No console inputs
+>>>> Capture clicks on the screen
+>>>>>> Each click within a dice region should result in a throw/roll
+>>>>>> Each click within a dice region should draw a random dice face
+>>>>>> Each click within a dice region should update the running total
+>>>>>> Any click outside the dice region should result in no action/error
+
+>>Major drawing objects
+>>>> Five dice
+>>>> Exit button
+>>>> Running total of dice value
+
+>> Minimum functions to include
+>>>> Roll the dice per in-region click
+>>>> Generate a random dice face value
+
+>> Literal facts to store
+>>>> Valid dice face values are between 1 thru 6
+
+>> Program calculates
+>>>> running total of dice value += current dice throw value
+
+>> End Program informs user of
+>>>> Final dice value running total
+>>>> Tell user they're lucky
+
+
