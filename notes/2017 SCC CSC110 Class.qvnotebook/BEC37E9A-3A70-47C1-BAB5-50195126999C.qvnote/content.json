@@ -1,0 +1,9 @@
+{
+  "title": "Final Exam notes",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>study notes:</div><div><br></div><div>remember to think of floats when printing, if hit by a number with a decimal the resulting number is a float</div><div><br></div><div>if end is set in print(), consider what happens if there's no \\n</div><div><br></div><div>range(1,10) = 1-9</div><div><br></div><div>exponent = **</div><div>division = float</div><div>int division = int (//) - how many times into? ignore remainder</div><div>modulus = int (%) - what's the remainder</div><div><br></div><div>string[i] = one character</div><div>string[-i] = one character, start counting from end</div><div>string[i:j] = slice from i to j</div><div>string[:j] = slice from start to j</div><div>string[i:] = slice from i to end</div><div>string[:-j] = slice from start to -j from end</div><div><br></div><div>str * 3 = reat str 3 times</div><div>str + \"3\" = concatenate str and “3\"</div><div><br></div><div>reading files</div><div>—print(line[:-1]) &nbsp;= ignores carriage return from file</div><div><br></div><div>functions</div><div>—return control and sometimes a value</div><div><br></div><div>boolean</div><div>—order of operations: and then or</div><div><br></div><div>Graphics</div><div>—window, default 200x200</div><div><br></div><div>book: chapters 1-8</div><div>extra credit: joke</div>"
+    }
+  ]
+}
