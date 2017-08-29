@@ -99,7 +99,7 @@ def drawDice(window, pntTopLeft, intSize, intFaceValue):
     elif intFaceValue == 2:
         lstMarkIndex = [0,8]
     elif intFaceValue == 3:
-        lstMarkIndex = [0,4,8]
+        lstMarkIndex = [2,4,6]
     elif intFaceValue == 4:
         lstMarkIndex = [0,2,6,8]
     elif intFaceValue == 5:
